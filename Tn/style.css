@@ -1,0 +1,163 @@
+ /* General Reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: #f9f9f9;
+  }
+
+  /* Header Section */
+  header {
+    background: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .header-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo {
+    font-family: Papyrus, fantasy;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+ .color {
+    color: black;
+    font-weight: bold;
+ }
+
+  nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  /* Main Container */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+
+  /* Flex Section: Main Image and Latest Gallery */
+  .flex-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .main-image {
+    flex: 2;
+  }
+
+  .main-image img {
+    width: 100%;
+    height: 255.71px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+
+  .latest-gallery-container {
+    flex: 1;
+  }
+
+  .latest-gallery-container h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+
+  .latest-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+  .latest-gallery img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+
+  /* Best Work Section */
+  .best-work {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+
+  .best-work h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .best-work-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+
+  .best-work-grid img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+  }
+
+  /* Content Sections */
+  .content-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .content-sections div {
+    flex: 1;
+  }
+
+  .content-sections h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  .content-sections p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #f4f4f4;
+    border-top: 1px solid #ddd;
+  }
+
+  footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+  }
